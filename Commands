@@ -1,0 +1,18 @@
+Commands
+
+
+
+WireGuard
+
+1. sudo wg-quick up ./laptop.conf
+2. sudo wg-quick down ./laptop.conf
+3. ssh root@161.35.229.188
+
+Ding login
+
+Please use the below credentials to login.
+Email : harsha@myding.in
+Password : u6ecpgg8
+
+Mapping code :  afp53r16 (The mapping code is to be mapped at your end and passed with the restID object in 
+the order relay) 

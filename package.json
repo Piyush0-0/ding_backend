@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node run-migration.js up",
+    "migrate:down": "node run-migration.js down",
+    "migrate:sql": "node run-sql-migration.js up",
+    "migrate:status": "node -e \"const db = require('./db'); db.query('SELECT migration_name, executed_at, status FROM migrations ORDER BY executed_at DESC').then(([rows]) => { console.log('JavaScript Migrations:'); console.table(rows); }).catch(() => console.log('No migrations table found')); db.query('SELECT migration_name, executed_at, status FROM sql_migrations ORDER BY executed_at DESC').then(([rows]) => { console.log('\\nSQL Migrations:'); console.table(rows); }).catch(() => console.log('No sql_migrations table found')); db.close();\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Ding MVP",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.14.2",
+    "pg": "^8.13.1",
+    "prisma": "^6.8.2",
+    "razorpay": "^2.9.6",
+    "twilio": "^5.4.0",
+    "uuid": "^9.0.1"
+  }
+}

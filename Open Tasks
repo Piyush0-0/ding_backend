@@ -1,0 +1,19 @@
+1. Configurable Restaurant types and states.  -   Harsha
+  1. Only digi menu
+  2. Digi menu + Ordering
+  3. Digi menu + Ordering + PAy and Place.
+  4. Digi menu + Ordering + pay at the end.
+
+Payment Integration (Direct pay to the restaurant.). - Harsha/Shashank
+FireBase deployment.   - Harsha
+Post Order feedback.   - Shashank
+POS Adapters. (RistaPOS, POSist, TMBILL).  -  Harsha/Rakshit
+Table Movement. - Harsha
+About the restaurant.  -  Shashank
+Navbar.  -  Shashank
+"People also placed".  -  Shashank/Harsha
+GST + editable Service charge.   - Harsha/Shashank
+Editable Tip.   - Harsha/Shashank
+Shareable table based on admin pop-ups.   -  Harsha.
+
+223.230.32.233

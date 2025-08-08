@@ -1,0 +1,460 @@
+{
+  "success": "1",
+  "message": "Restaurant Menu Details.",
+  "restaurants": [
+    {
+      "restaurantid": "4435",
+      "menusharingcode": "afp53r16",
+      "res_name": "Test Resto 1",
+      "address": "Test address",
+      "contact_information": "9999999999",
+      "latitude": "19.0760",
+      "longitude": "72.8777",
+      "landmark": "Near Test Landmark",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "zipcode": "400072",
+      "minimumorderamount": "100.00",
+      "minimumdeliverytime": "30 Minutes",
+      "deliverycharge": "50.00",
+      "packaging_charge": "20.00",
+      "tax_on_packaging_charge": "1",
+      "tax_on_delivery_charge": "1",
+      "currency_html": "&#8377;",
+      "active": "1",
+      "images": [],
+      "ordertypes": [
+        {
+          "type": "1",
+          "name": "Delivery",
+          "min_order_value": "100",
+          "max_order_value": "5000"
+        },
+        {
+          "type": "2",
+          "name": "Pick Up",
+          "min_order_value": "50",
+          "max_order_value": "3000"
+        },
+        {
+          "type": "3",
+          "name": "Dine In",
+          "min_order_value": "0",
+          "max_order_value": "10000"
+        }
+      ],
+      "categories": [
+        {
+          "categoryid": "74977",
+          "categoryrank": "1",
+          "categoryname": "Burritos/bowls",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74978",
+          "categoryrank": "2",
+          "categoryname": "Quesadillas",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74979",
+          "categoryrank": "3",
+          "categoryname": "Tacos",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74980",
+          "categoryrank": "4",
+          "categoryname": "Sides",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74981",
+          "categoryrank": "5",
+          "categoryname": "Dessert",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74982",
+          "categoryrank": "6",
+          "categoryname": "Beverages",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74983",
+          "categoryrank": "7",
+          "categoryname": "Margaritas",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74984",
+          "categoryrank": "8",
+          "categoryname": "Specials",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74985",
+          "categoryrank": "9",
+          "categoryname": "Rolls",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        },
+        {
+          "categoryid": "74986",
+          "categoryrank": "10",
+          "categoryname": "Wraps",
+          "parent_category_id": "0",
+          "active": "1",
+          "category_image_url": ""
+        }
+      ],
+      "parentcategories": [],
+      "group_categories": [],
+      "items": [
+        {
+          "itemid": "10505928",
+          "itemallowvariation": "1",
+          "itemrank": "1",
+          "item_categoryid": "74977",
+          "item_ordertype": "1,2,3",
+          "item_packingcharges": "0",
+          "itemallowaddon": "1",
+          "itemaddonbasedon": "1",
+          "item_favorite": "0",
+          "ignore_taxes": "0",
+          "ignore_discounts": "0",
+          "in_stock": "2",
+          "cuisine": [],
+          "variation_groupname": "Preparation",
+          "is_combo": "0",
+          "variation": [
+            {
+              "id": "10506041",
+              "variationid": "8288",
+              "name": "White Rice",
+              "groupname": "Preparation",
+              "price": "299.00",
+              "markup_price": "",
+              "active": "1",
+              "item_packingcharges": "0",
+              "variationrank": "1",
+              "addon": [
+                {
+                  "addon_group_id": "9477",
+                  "addon_item_selection_min": "1",
+                  "addon_item_selection_max": "1"
+                },
+                {
+                  "addon_group_id": "9475",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "1"
+                },
+                {
+                  "addon_group_id": "9473",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "7"
+                },
+                {
+                  "addon_group_id": "9476",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "6"
+                },
+                {
+                  "addon_group_id": "9474",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "1"
+                }
+              ],
+              "variationallowaddon": 1
+            },
+            {
+              "id": "10506042",
+              "variationid": "8289",
+              "name": "Brown Rice",
+              "groupname": "Preparation",
+              "price": "299.00",
+              "markup_price": "",
+              "active": "1",
+              "item_packingcharges": "0",
+              "variationrank": "2",
+              "addon": [
+                {
+                  "addon_group_id": "9477",
+                  "addon_item_selection_min": "1",
+                  "addon_item_selection_max": "1"
+                },
+                {
+                  "addon_group_id": "9475",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "1"
+                },
+                {
+                  "addon_group_id": "9473",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "7"
+                },
+                {
+                  "addon_group_id": "9476",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "6"
+                },
+                {
+                  "addon_group_id": "9474",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "1"
+                }
+              ],
+              "variationallowaddon": 1
+            }
+          ],
+          "addon": [],
+          "is_recommend": "0",
+          "itemname": "Makhani Bowl",
+          "item_attributeid": "2",
+          "itemdescription": "NEW! Seasoned rice is topped with NEW! Punjabi Makhani style protein filling, beans, grilled veggies, roasted salsa, achaari onions, lettuce, and jugaadu sour cream. Serves 1.",
+          "minimumpreparationtime": "",
+          "price": "0",
+          "active": "1",
+          "markup_price": "",
+          "item_tags": [],
+          "item_info": {
+            "spice_level": "not-applicable"
+          },
+          "item_image_url": "",
+          "item_tax": "2157,2158",
+          "tax_inclusive": false,
+          "gst_type": "services"
+        },
+        {
+          "itemid": "10505978",
+          "itemallowvariation": "1",
+          "itemrank": "1",
+          "item_categoryid": "74986",
+          "item_ordertype": "1,2,3",
+          "item_packingcharges": "0",
+          "itemallowaddon": "1",
+          "itemaddonbasedon": "1",
+          "item_favorite": "0",
+          "ignore_taxes": "0",
+          "ignore_discounts": "0",
+          "in_stock": "2",
+          "cuisine": [],
+          "variation_groupname": "Preparation",
+          "is_combo": "0",
+          "variation": [
+            {
+              "id": "10506116",
+              "variationid": "8286",
+              "name": "Regular Base",
+              "groupname": "Preparation",
+              "price": "229.00",
+              "markup_price": "",
+              "active": "1",
+              "item_packingcharges": "0",
+              "variationrank": "1",
+              "addon": [
+                {
+                  "addon_group_id": "9473",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "7"
+                },
+                {
+                  "addon_group_id": "9483",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "1"
+                },
+                {
+                  "addon_group_id": "9476",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "6"
+                },
+                {
+                  "addon_group_id": "9474",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "1"
+                }
+              ],
+              "variationallowaddon": 1
+            },
+            {
+              "id": "10506117",
+              "variationid": "8287",
+              "name": "Whole Wheat Base",
+              "groupname": "Preparation",
+              "price": "229.00",
+              "markup_price": "",
+              "active": "1",
+              "item_packingcharges": "0",
+              "variationrank": "2",
+              "addon": [
+                {
+                  "addon_group_id": "9473",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "7"
+                },
+                {
+                  "addon_group_id": "9483",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "1"
+                },
+                {
+                  "addon_group_id": "9476",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "6"
+                },
+                {
+                  "addon_group_id": "9474",
+                  "addon_item_selection_min": "0",
+                  "addon_item_selection_max": "1"
+                }
+              ],
+              "variationallowaddon": 1
+            }
+          ],
+          "addon": [],
+          "is_recommend": "0",
+          "itemname": "Chilly Roll",
+          "item_attributeid": "2",
+          "itemdescription": "Big 10\" roll with a Desi-Chinese style mushroom or chicken chilly filling, Chinese slaw, spring onions, lettuce, and chipotle aioli.",
+          "minimumpreparationtime": "",
+          "price": "0",
+          "active": "1",
+          "markup_price": "",
+          "item_tags": [],
+          "item_info": {
+            "spice_level": "not-applicable"
+          },
+          "item_image_url": "",
+          "item_tax": "2157,2158",
+          "tax_inclusive": false,
+          "gst_type": "services"
+        },
+        {
+          "itemid": "10505909",
+          "itemallowvariation": "0",
+          "itemrank": "1",
+          "item_categoryid": "74979",
+          "item_ordertype": "1,2,3",
+          "item_packingcharges": "0",
+          "itemallowaddon": "1",
+          "itemaddonbasedon": "0",
+          "item_favorite": "0",
+          "ignore_taxes": "0",
+          "ignore_discounts": "0",
+          "in_stock": "2",
+          "cuisine": [],
+          "variation_groupname": "",
+          "is_combo": "0",
+          "variation": [],
+          "addon": [
+            {
+              "addon_group_id": "9473",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "7"
+            },
+            {
+              "addon_group_id": "9474",
+              "addon_item_selection_min": "0",
+              "addon_item_selection_max": "1"
+            },
+            {
+              "addon_group_id": "9490",
+              "addon_item_selection_min": "1",
+              "addon_item_selection_max": "1"
+            }
+          ],
+          "is_recommend": "0",
+          "itemname": "Sample Platter",
+          "item_attributeid": "5",
+          "itemdescription": "Adobo Burrito + Teriyaki Quesadilla + Tandoori Tacos + 2 Churros",
+          "minimumpreparationtime": "",
+          "price": "600.00",
+          "active": "1",
+          "markup_price": "",
+          "item_tags": [],
+          "item_info": {
+            "spice_level": "not-applicable"
+          },
+          "item_image_url": "",
+          "item_tax": "2157,2158",
+          "tax_inclusive": false,
+          "gst_type": "services"
+        }
+      ],
+      "variations": [
+        {
+          "variationid": "8286",
+          "name": "Regular Base",
+          "groupname": "Preparation",
+          "status": "1"
+        },
+        {
+          "variationid": "8287",
+          "name": "Whole Wheat Base",
+          "groupname": "Preparation",
+          "status": "1"
+        },
+        {
+          "variationid": "8288",
+          "name": "White Rice",
+          "groupname": "Preparation",
+          "status": "1"
+        },
+        {
+          "variationid": "8289",
+          "name": "Brown Rice",
+          "groupname": "Preparation",
+          "status": "1"
+        },
+        {
+          "variationid": "8290",
+          "name": "Medium",
+          "groupname": "Quantity",
+          "status": "1"
+        },
+        {
+          "variationid": "8291",
+          "name": "Large",
+          "groupname": "Quantity",
+          "status": "1"
+        }
+      ],
+      "addongroups": [
+        {
+          "addongroupid": "9473",
+          "addongroup_rank": "1",
+          "active": "1",
+          "addongroupitems": [
+            {
+              "addonitemid": "38906",
+              "addonitem_name": "Cashew Queso",
+              "addonitem_price": "39",
+              "active": "1",
+              "attributes": "1",
+              "addonitem_rank": "1"
+            }
+          ],
+          "addongroup_name": "Add-ons"
+        }
+      ]
+    }
+  ]
+} 
